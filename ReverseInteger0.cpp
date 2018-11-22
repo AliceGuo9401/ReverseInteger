@@ -38,6 +38,7 @@ int reverse(int x) {
 
 int main() {
     int x = -2147483648;  //int取值范围1000 0000 0000 0000 0000 0000 0000 0000 ~ 0111 1111 1111 1111 1111 1111 1111 1111
+                          //int x = 2147483647; x = x + 1;  //x = -2147483648
     int reverseX = reverse(x);
     cout << reverseX;
     return 0;
